@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raices Nativas</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/productos.css">
+    <link rel="stylesheet" href="./styles/contacto.css">
+    <link rel="stylesheet" href="./styles/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Mallanna&family=MuseoModerno:wght@400;500&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+
+         <!----------------------------------------->
+        <!----------- barra superior   ------------->
+        <!------------------------------------------>
+        <div class="logo">Raices Nativas</div>
+
+    
+        <div class="navBar">
+            <div class="nav__bar"><a href="#">
+                    <a href="#productos">Productos</a>
+                </a></div>
+            <div class="nav__bar">
+                <a href="#contacto"> contacto</a>
+            </div>
+            <div class="nav__bar">
+                <a href="#"> Login</a>
+            </div>
+            <div class="nav__bar">
+                <a href="#"><i class="fa-solid fa-cart-shopping texto"></i></a>
+            </div>
+        </div>
+
+         <!------------------------------------------>
+        <!----------------- Banner -------------->
+        <!------------------------------------------>
+    
+        <div class="banner">
+            <div class="banner__texto">Raices Nativas</div>
+            <div class="banner__texto">Semillas de plantas nativas de la zona centro de Argentina</div>
+        </div>
+    
+    
+        <!------------------------------------------>
+        <!----------------- Productos -------------->
+        <!------------------------------------------>
+    
+        <div class="main__productos">
+            <div class="productos__header" name="productos" id="productos"> Productos</div>
+            <div class="productos">
+    
+    
+                <div class="productos__producto">
+                    <h2 class="producto__titulo"> Producto </h2>
+                    <img class="producto__imagen" src="./assets/algarrobo.jpg" alt="">
+                    <p class="producto__texto">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    <div class="producto__precio"><span>$ 100</span> <i class="fa-solid fa-cart-plus"></i> </div>
+                </div>
+                <div class="productos__producto">2</div>
+                <div class="productos__producto">3 </div>
+                <div class="productos__producto">4 </div>
+                <div class="productos__producto">5 </div>
+                <div class="productos__producto">6 </div>
+                <div class="productos__producto">7 </div>
+                <div class="productos__producto">8 </div>
+                <div class="productos__producto">9 </div>
+                <div class="productos__producto">10 </div>
+                <div class="productos__producto">11</div>
+                <div class="productos__producto">12</div>
+    
+                <div class="productos__producto">13</div>
+                <div class="productos__producto">13</div>
+                <div class="productos__producto">14</div>
+                <div class="productos__producto">15</div>
+                <div class="productos__producto">16</div>
+                <div class="productos__producto">17</div>
+    
+                <div class="productos__producto">ult</div>
+    
+            </div>
+        </div>
+        <!------------------------------------------>
+        <!----------------- Contacto --------------->
+        <!------------------------------------------>
+    
+        <div class="contacto" name="contacto" id="contacto">
+            <h2 class="Contacto__titulo">Contacto</h2>
+            <div class="formulario__container">
+                <form class="formulario" action="https://formsubmit.co/efb718488401133e53d89db3c364591e" method="POST">
+                    <div class="input-container ">
+                        <label class="input-label" for="name">Nombre</label>
+                        <input name="name" id="name" class="input" type="text" placeholder="Nombre" required
+                            data-tipo="nombre">
+                        <span class="input-message-error"></span>
+                    </div>
+                    <div class="input-container ">
+                        <label class="input-label" for="surname">Apellido</label>
+                        <input name="surname" id="surname" class="input" type="text" placeholder="Apellido" required
+                            data-tipo="apellido">
+                        <span class="input-message-error"></span>
+                    </div>
+                    <div class="input-container">
+                        <label class="input-label" for="email">Email</label>
+                        <input name="email" id="email" class="input" type="email" placeholder="Email" required
+                            data-tipo="email">
+                        <span class="input-message-error"></span>
+                    </div>
+                    <div class="input-container">
+                        <label class="input-label__area " for="mensaje">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" class="input" cols="50" rows="5" type="text"
+                            placeholder="Escriba aqui su mensaje" required data-tipo="mensaje"></textarea>
+                    </div>
+                    <div class="input-container input-container__send">
+                        <button class="boton__send" type="submit" value="Enviar"> Enviar</button>
+                    </div>
+    
+                    <!-- <input type="hidden" name="_next" value="aca va laurl de github">-->
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+                    <input type="hidden" name="_captcha" value="false">
+                </form>
+            </div>
+        </div>
+
+
+        <!---------------------------------------->
+        <!----------------- Footer --------------->
+        <!---------------------------------------->
+    
+        <div class="footer">
+            <div class="footer__texto"> Raices Nativas &copy 2022</div>
+            <div class="social-media">
+                <ul>
+                    <li class="footer__redes"><a href="#">
+                            <a href="3#" target="_blank"><i class="fa-brands fa-linkedin texto "></i></a>
+                        </a></li>
+                    <li class="footer__redes">
+                        <a href="#" target="_blank"><i class="fa-brands fa-facebook texto"></i></a>
+                    </li>
+    
+                    <li class="footer__redes">
+                        <a href="mailto: jorgevila81@gmail.com"><i class="fa-solid fa-at texto"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+      <script src="https://kit.fontawesome.com/5454830660.js" crossorigin="anonymous"></script>
+    <script src="./code/code.js"></script>
+    <script src="./code/contacto.js"></script>
+</body>
+</html>
