@@ -29,7 +29,7 @@ const render = async () => {
     try{
         const listaProductos = await productoServices.listaProductos()        
         listaProductos.forEach(element => {
-            producto.appendChild(nuevoProducto(element.name, element.imageUrl, element.description, element.price,  ))          
+            producto.appendChild(nuevoProducto(element.name, element.imageUrl, element.description, element.price  ))          
         });
     } 
     catch(erro){

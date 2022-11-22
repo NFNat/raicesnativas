@@ -1,7 +1,8 @@
 //--------------------//
 //      Métodos GET    //
 //--------------------//
-const listaProductos = () => fetch("http://localhost:3000/producto").then(response => response.json());
+// const listaProductos = () => fetch("http://localhost:3000/producto").then(response => response.json());
+const listaProductos = () => fetch("https://my-json-server.typicode.com/NFNat/raicesnativas/db").then(response => response.json());
 
 
 
@@ -12,7 +13,8 @@ const listaProductos = () => fetch("http://localhost:3000/producto").then(respon
 //--------------------//
 
 const crearProducto = (name, imageUrl, description, price) => {
-    return fetch("http://localhost:3000/producto", {
+    // return fetch("http://localhost:3000/producto", {
+    return fetch("https://my-json-server.typicode.com/NFNat/raicesnativas/db", {
         method: "POST",
         headers: {
             "content-type": "application/json"
@@ -26,7 +28,9 @@ const crearProducto = (name, imageUrl, description, price) => {
 //--------------------//
 
 const eliminarProducto = (id)  => {
-    return fetch(`http://localhost:3000/producto/${id}`,{
+
+    // return fetch(`http://localhost:3000/producto/${id}`,{
+    return fetch(`https://my-json-server.typicode.com/NFNat/raicesnativas/db/${id}`,{
         method:"DELETE"
     })   
 } 
@@ -36,7 +40,10 @@ const eliminarProducto = (id)  => {
 //--------------------//
 
 const actualizarProducto = (name, imageUrl,  description, price, id) =>{
-    return fetch(`http://localhost:3000/producto/${id}`,{
+
+    
+    // return fetch(`http://localhost:3000/producto/${id}`,{
+    return fetch(`https://my-json-server.typicode.com/NFNat/raicesnativas/db/${id}`,{
         method:"PUT",
         headers: {
             "content-type": "application/json"
@@ -48,7 +55,8 @@ const actualizarProducto = (name, imageUrl,  description, price, id) =>{
 }
 
 const detalleProducto = (id) => {
-    return fetch(`http://localhost:3000/producto/${id}`).then(response => response.json());
+    // return fetch(`http://localhost:3000/producto/${id}`).then(response => response.json());
+    return fetch(`https://my-json-server.typicode.com/NFNat/raicesnativas/db/${id}`).then(response => response.json());
 }
 //--------------------//
 //      Exports       //
