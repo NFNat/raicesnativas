@@ -1,5 +1,4 @@
-{
-  "producto": [
+   [
     {
       "name": "Tala",
       "imageUrl": "../assets/algarrobo.jpg",
@@ -71,4 +70,3 @@
       "id": "c29d7f94-eaa5-4ba5-8fcd-980262e62494"
     }
   ]
-}
