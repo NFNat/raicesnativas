@@ -26,47 +26,6 @@
       "description": "otra planta",
       "price": "115",
       "id": "a5f880ef-96be-48aa-b021-894e3d564f5a"
-    },
-    {
-      "name": "planta 4",
-      "imageUrl": "../assets/algarrobo.jpg",
-      "description": "la planta 4",
-      "price": "117",
-      "id": "7de5d065-cc2f-4a35-ac95-a483b845585c"
-    },
-    {
-      "name": "planta 5",
-      "imageUrl": "../assets/algarrobo.jpg",
-      "description": "la planbta 5",
-      "price": "119",
-      "id": "e105fe6f-de32-4442-be3b-be3afe219460"
-    },
-    {
-      "name": "planta 6",
-      "imageUrl": "../assets/algarrobo.jpg",
-      "description": "la sexta planta",
-      "price": "121",
-      "id": "a6bc1c0b-7ec0-4858-9071-e394e0df86bb"
-    },
-    {
-      "name": "planta 7",
-      "imageUrl": "../assets/algarrobo.jpg",
-      "description": "la septima planta",
-      "price": "123",
-      "id": "4f8292cf-fd50-475f-aa67-f36da52b65c1"
-    },
-    {
-      "name": "planta 8",
-      "imageUrl": "../assets/algarrobo.jpg",
-      "description": "la planta numero 8",
-      "price": "125",
-      "id": "14b7f4aa-057b-43d2-89fc-bc91aaf4e2a2"
-    },
-    {
-      "name": "planta 9",
-      "imageUrl": "../assets/algarrobo.jpg",
-      "description": "la novena planta",
-      "price": "127",
-      "id": "c29d7f94-eaa5-4ba5-8fcd-980262e62494"
     }
+  
   ]
