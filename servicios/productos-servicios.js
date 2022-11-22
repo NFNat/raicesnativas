@@ -14,7 +14,7 @@ const listaProductos = () => fetch("https://my-json-server.typicode.com/NFNat/ra
 
 const crearProducto = (name, imageUrl, description, price) => {
     // return fetch("http://localhost:3000/producto", {
-    return fetch("https://my-json-server.typicode.com/NFNat/raicesnativas/db", {
+    return fetch("https://my-json-server.typicode.com/NFNat/raicesnativas/db/producto", {
         method: "POST",
         headers: {
             "content-type": "application/json"
@@ -30,7 +30,7 @@ const crearProducto = (name, imageUrl, description, price) => {
 const eliminarProducto = (id)  => {
 
     // return fetch(`http://localhost:3000/producto/${id}`,{
-    return fetch(`https://my-json-server.typicode.com/NFNat/raicesnativas/db/${id}`,{
+    return fetch(`https://my-json-server.typicode.com/NFNat/raicesnativas/db/producto/${id}`,{
         method:"DELETE"
     })   
 } 
@@ -43,7 +43,7 @@ const actualizarProducto = (name, imageUrl,  description, price, id) =>{
 
     
     // return fetch(`http://localhost:3000/producto/${id}`,{
-    return fetch(`https://my-json-server.typicode.com/NFNat/raicesnativas/db/${id}`,{
+    return fetch(`https://my-json-server.typicode.com/NFNat/raicesnativas/db/producto/${id}`,{
         method:"PUT",
         headers: {
             "content-type": "application/json"
@@ -56,7 +56,7 @@ const actualizarProducto = (name, imageUrl,  description, price, id) =>{
 
 const detalleProducto = (id) => {
     // return fetch(`http://localhost:3000/producto/${id}`).then(response => response.json());
-    return fetch(`https://my-json-server.typicode.com/NFNat/raicesnativas/db/${id}`).then(response => response.json());
+    return fetch(`https://my-json-server.typicode.com/NFNat/raicesnativas/db/producto/${id}`).then(response => response.json());
 }
 //--------------------//
 //      Exports       //
