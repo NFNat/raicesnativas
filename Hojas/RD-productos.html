@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Editar</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/productos.css">
+    <link rel="stylesheet" href="../styles/contacto.css">
+    <link rel="stylesheet" href="../styles/media.css">
+    <link rel="stylesheet" href="../styles/crud.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Mallanna&family=MuseoModerno:wght@400;500&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <div class="container_crud">
+    <div class="nav__crud">
+  <div class="logo">Raices Nativas</div>
+
+    <div class="nav__crud__title">Editar Productos</div>
+  <div class="navBar">      
+      <div class="nav__bar">
+          <a href="../index.html"> Inicio </a>
+      </div>
+     
+  </div>
+</div>
+  
+ 
+    
+    <main class="Productos-container">
+     
+        <table class="table">
+          <thead>
+            <tr>
+              <th class="table__column">Nombre</th>
+              <th class="table__column">Url imagen</th>
+              <th class="table__column">Descripcion</th>
+              <th class="table__column">Precio</th>
+              <th class="table__column">ID</th>
+              <th class="table__column table__align--right">
+                <a
+                  href="./crear-producto.html"
+                  class="simple-button simple-button--add"
+                  >Nuevo Producto</a
+                >
+              </th>
+            </tr>
+          </thead>
+          <tbody  datos-productos-lista>
+           
+          </tbody>
+        </table>
+
+        
+       
+      </main>
+
+
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/5454830660.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script type="module" src="../controllers/RD-producto-controller.js"></script>
+</body>
+</html>

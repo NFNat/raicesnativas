@@ -1,0 +1,41 @@
+{
+    "producto": [
+        { 
+            "name": "Alura",
+            "imageUrl": "./algarrobo.jpg",
+            "price": "100.00",
+            "id": 1,
+            "alt": "Product",
+            "section": "Star Wars", 
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, laboriosam."
+        },
+        { 
+            "name": "Oracle",
+            "imageUrl": "./algarrobo.jpg",
+            "price": "100.00",
+            "id": 1,
+            "alt": "Product",
+            "section": "Star Wars", 
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, laboriosam."
+        },
+        { 
+            "name": "ONe",
+            "imageUrl": "./algarrobo.jpg",
+            "price": "100.00",
+            "id": 1,
+            "alt": "Product",
+            "section": "Star Wars", 
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, laboriosam."
+        },
+        { 
+            "name": "Natalia",
+            "imageUrl": "./algarrobo.jpg",
+            "price": "100.00",
+            "id": 1,
+            "alt": "Product",
+            "section": "Star Wars", 
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, laboriosam."
+        }
+
+    ]
+}

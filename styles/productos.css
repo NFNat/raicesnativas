@@ -8,6 +8,10 @@
 padding: 1rem;
 font-size: 2rem;
 text-align: center;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
 }
 .productos {
     display: flex;
@@ -64,3 +68,14 @@ text-align: center;
         width: 100%;
     }
     
+    .modificar{
+        font-size: 1.5rem;
+    }
+
+    .logueado{
+        display: block;
+    }
+    .no_logueado{
+        display: none;
+    }
+   

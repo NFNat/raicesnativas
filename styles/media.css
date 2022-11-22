@@ -3,7 +3,14 @@
 }
 
 @media  screen and (min-width: 768px) and (max-width:1023px) {
-
+    .banner {
+    
+        font-size: 2.5rem;
+        height: 50vh;
+        
+        
+    }
+    
 }
 
 
@@ -12,6 +19,14 @@
     .logo {       
         font-size: 1.5rem;      
     }
+    
+  .banner {
+    
+    font-size: 1.9rem;
+    
+  
+    
+}
 
    
 
@@ -20,8 +35,7 @@
 
 
 @media  screen and (max-width: 480px)  {
-    .container {  
-       
+    .container {         
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 0.2fr 0.2fr 0.7fr 2fr 1.1fr 0.2fr;
         gap: 0px 0px;
@@ -34,11 +48,6 @@
           "footer footer footer footer";
       }
       
-
-
-
-
-
 
     .logo {       
         font-size: 1.8rem;
@@ -67,7 +76,21 @@
     
     
 }
+.card__title{
+    padding: 0rem ;
+    font-size: 1rem;
+} 
+.formulario{
+    display: block;
+   
+   
 
-
+}
+.flex--column{
+       
+    justify-content: center;
+ 
+   
+}
 
 }
