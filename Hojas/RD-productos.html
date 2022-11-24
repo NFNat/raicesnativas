@@ -30,8 +30,6 @@
      
   </div>
 </div>
-  
- 
     
     <main class="Productos-container">
      
@@ -53,21 +51,29 @@
             </tr>
           </thead>
           <tbody  datos-productos-lista>
-           
+            <!-- Lineas de muestra solo para deploy front. Eliminar desde acá -->
+
+            <td class="td" data-td>Semilla 1</td>
+            <td class="td" >./assets/algarrobo.jpg</td>
+            <td class="td" >Descripcion Semilla 1</td>
+            <td>$ 100</td>
+            <td> Id 1</td>
+            <td>
+              <ul class="table__button-control">
+                <li> <a href="../Hojas/U-producto.html" class="simple-button simple-button--edit" >Editar</a> </li>
+                <li> <button class="simple-button simple-button--delete" type="button" id=""> Eliminar </button> </li>
+              </ul>
+            </td> 
+            <!-- hasta acá -->
+            
           </tbody>
         </table>
-
-        
-       
       </main>
-
-
-
     </div>
 
     <script src="https://kit.fontawesome.com/5454830660.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    
-    <script type="module" src="../controllers/RD-producto-controller.js"></script>
+   <!-- Siguiente linea comentada para que no llame al controller -->
+    <!-- <script type="module" src="../controllers/RD-producto-controller.js"></script> -->
 </body>
 </html>

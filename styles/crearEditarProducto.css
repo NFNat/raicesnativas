@@ -1,19 +1,57 @@
-.formulario{
+
+:root {
+    --verde-oscuro: rgb(49, 64, 49);
+    --verde-medio: #4D654D;
+    --verde-mediano: rgb(83, 102, 80);
+    --verde-claro: #CCD9AE;
+    --blanco-sucio: #D9D9D9;
+    --black-mondrian: #0a040b;
+
+
+    
+}
+body{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Mallanna', sans-serif;
+font-family: 'MuseoModerno', cursive;
+font-family: 'Open Sans', sans-serif;
+
+
+background-color:var(--verde-oscuro);
+
+}
+.body__agregar{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+    background-color:var(--verde-oscuro);
+}
+.formulario__editar{
     
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;    
     width: 100%;
     height: 100vh;
     font-family: 'Mallanna', sans-serif;
     color: var(--blanco-sucio);
 
 }
+
+
  .card__title{
     padding: 0.5rem ;
     font-size: 2rem;
+    width: 60%;
+    display: flex;
+    text-align: center;
+  
+    justify-content: center;
+    align-items: center
 } 
 
 .button__add{
@@ -23,7 +61,7 @@
 
 }
 .flex--column{
-    width: 90%;
+    width: 60%;
     height: 80%;
     display: flex;
     flex-direction: column;
@@ -31,18 +69,46 @@
     align-items: center;
     
 }
-.input__container__add{
+.input__container__add, 
+.input-container{
     padding: 1rem;
-    width: 60%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     
 }
-.input__label__add{
+.input__label{
     padding: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
+
 .input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.1rem solid var(--blanco-sucio);
+    color: var(--blanco-sucio);
+    padding: 1rem;
+
+}
+.input-container__send{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
     font-size: 1.1rem;
+  padding: 0.5rem;
+}
+.boton__send{
+    padding: 0.2rem 2rem;
+    border-radius: 0.5rem;
+    letter-spacing: 0.5rem;
+    transition: 600ms;
+    border: 0.1rem solid var(--blanco-sucio);
+    color: var(--blanco-sucio);
+    background-color: var(--verde-oscuro);
+}
+.boton__send:hover{
+    transform: scale(1.1);
 }

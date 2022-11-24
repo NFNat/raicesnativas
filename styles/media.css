@@ -23,13 +23,14 @@
   .banner {
     
     font-size: 1.9rem;
-    
-  
-    
 }
 
-   
+.flex--column{
+    justify-content: space-evenly;
 
+
+
+}
 }
 
 
@@ -78,7 +79,7 @@
 }
 .card__title{
     padding: 0rem ;
-    font-size: 1rem;
+    /* font-size: 1rem; */
 } 
 .formulario{
     display: block;
@@ -87,8 +88,8 @@
 
 }
 .flex--column{
-       
-    justify-content: center;
+       justify-content: space-evenly;
+   
  
    
 }
