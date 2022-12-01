@@ -1,7 +1,12 @@
+const server = 'https://fake-api-hzjr.onrender.com/producto';
+
+//const server = 'http://localhost:3000';
+
 //--------------------//
 //      Métodos GET    //
 //--------------------//
-const listaProductos = () => fetch("http://localhost:3000/producto").then(response => response.json());
+
+const listaProductos = () => fetch(server).then(response => response.json());
 
 
 
@@ -13,7 +18,7 @@ const listaProductos = () => fetch("http://localhost:3000/producto").then(respon
 //--------------------//
 
 const crearProducto = (name, imageUrl, description, price) => {
-    return fetch("http://localhost:3000/producto", {
+    return fetch(server, {
 
         method: "POST",
         headers: {
@@ -29,7 +34,7 @@ const crearProducto = (name, imageUrl, description, price) => {
 
 const eliminarProducto = (id)  => {
 
-    return fetch(`http://localhost:3000/producto/${id}`,{
+    return fetch(server+`${id}`,{
     
         method:"DELETE"
     })   
@@ -42,7 +47,7 @@ const eliminarProducto = (id)  => {
 const actualizarProducto = (name, imageUrl,  description, price, id) =>{
 
     
-    return fetch(`http://localhost:3000/producto/${id}`,{
+    return fetch(server+`${id}`,{
     
         method:"PUT",
         headers: {
@@ -55,7 +60,7 @@ const actualizarProducto = (name, imageUrl,  description, price, id) =>{
 }
 
 const detalleProducto = (id) => {
-    return fetch(`http://localhost:3000/producto/${id}`).then(response => response.json());
+    return fetch(server+`${id}`).then(response => response.json());
    
 }
 //--------------------//
