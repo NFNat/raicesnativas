@@ -27,9 +27,15 @@
 
 .flex--column{
     justify-content: space-evenly;
+}
 
-
-
+.super__contacto{
+    flex-direction: column;
+    
+}
+.contacto{
+    
+    width:100%;
 }
 }
 
@@ -92,6 +98,15 @@
    
  
    
+}
+
+.super__contacto{
+    flex-direction: column;
+    
+}
+.contacto{
+    
+    width:100%;
 }
 
 }

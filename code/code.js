@@ -13,4 +13,6 @@ const verificarLog = () => {
         modif.classList.add("no_logueado")
     }
 }
-verificarLog()
+// se comenta para evitar error de consola. 
+
+//verificarLog()
